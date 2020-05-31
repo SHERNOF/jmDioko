@@ -138,10 +138,9 @@ nav .nav-wrapper {
   position: relative;
   background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(0, 0, 0, 0.6) 50%), url(/img/section/section.jpg);
   height: 40vh;
-  z-index: 50; }
-  @media (max-width: 37.5em) {
-    .about {
-      margin-top: -10rem; } }
+  z-index: 50;
+  margin-top: -5rem;
+  margin-bottom: 5rem; }
   .about .row {
     position: absolute;
     top: 50%;

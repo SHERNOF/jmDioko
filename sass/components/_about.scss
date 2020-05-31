@@ -3,16 +3,17 @@
   background-image: linear-gradient(105deg, rgba(white, 0.9) 50%, rgba(white, 0.2) 50%, rgba(black, 0.6) 50%), url(/img/section/section.jpg);
   height: 40vh;
   z-index: 50;
-  // margin-bottom: 5rem;
-  @include respond(tab-port) {
-    margin-top: -10rem;
-  }
-  @include respond(tab-land) {
-    margin-top: -10rem;
-  }
-  @include respond(phone) {
-    margin-top: -10rem;
-  }
+  margin-top: -5rem;
+  margin-bottom: 5rem;
+  // @include respond(tab-port) {
+  //   margin-top: -10rem;
+  // }
+  // @include respond(tab-land) {
+  //   margin-top: -10rem;
+  // }
+  // @include respond(phone) {
+  //   margin-top: -10rem;
+  // }
 
   .row {
     position: absolute;
