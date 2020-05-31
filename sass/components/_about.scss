@@ -15,11 +15,19 @@
       .s6 {
         &:nth-child(1) {
           p {
-            font-size: 1.4rem;
+            font-size: 1rem;
+            @include respond(phone) {
+              font-size: 32%;
+            }
           }
         }
         &:nth-child(2) {
           color: $primary-color;
+          p {
+            @include respond(phone) {
+              font-size: 35%;
+            }
+          }
         }
         .card-panel {
           .mission {
