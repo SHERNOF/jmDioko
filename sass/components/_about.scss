@@ -4,6 +4,12 @@
   height: 40vh;
   z-index: 50;
   // margin-bottom: 5rem;
+  @include respond(tab-port) {
+    margin-top: -10rem;
+  }
+  @include respond(tab-land) {
+    margin-top: -10rem;
+  }
   @include respond(phone) {
     margin-top: -10rem;
   }
