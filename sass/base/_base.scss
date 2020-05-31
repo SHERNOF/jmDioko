@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background: black;
+  box-sizing: border-box;
+  padding: 0 2rem;
+  .mainBox {
+    // margin-bottom: 5rem;
+  }
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  @include respond(tab-land) {
+    // < 900?
+    font-size: 56.25%; // 1rem = 9px; 9/16 = 50%
+  }
+  @include respond(tab-port) {
+    // < 600?
+    font-size: 50%; // 1rem = 8px; 8/16 = 50%
+  }
+
+  @include respond(phone) {
+    // < 600?
+    font-size: 37.5%; // 1rem = 7px; 4.8/16 = 50%
+  }
+
+  @include respond(big-desktop) {
+    font-size: 75%; // 1 rem = 12px; 12/16 =
+  }
+}

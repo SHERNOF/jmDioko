@@ -1,0 +1,33 @@
+.graphs {
+  display: none;
+  .container {
+    .data {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid white;
+      margin-bottom: 2rem;
+      .row {
+        & div:nth-child(1) {
+          .row {
+            .col {
+              .card-panel {
+                border: 1px solid white;
+                // margin-left: 2.5rem;
+              }
+            }
+          }
+        }
+
+        & div:nth-child(2) {
+          .row {
+            .s12 {
+              .card-panel {
+                // margin-left: 2.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+nav {
+  .nav-wrapper {
+    z-index: 30;
+    border-bottom: 1px solid white;
+    .container {
+      .brand-logo,
+      .button-collapse,
+      ul.right li a {
+        color: $primary-color;
+      }
+
+      ul.side-nav li a {
+        color: white;
+      }
+    }
+    .side-nav {
+    }
+  }
+}

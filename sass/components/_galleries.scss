@@ -1,0 +1,24 @@
+.galleries {
+  .container {
+    .row {
+      .col {
+        .card {
+          .center-align {
+            height: 4rem;
+            padding-top: 1rem;
+            span {
+              font-size: 1.5rem;
+            }
+          }
+
+          .card-image {
+            span {
+              font-size: 2rem;
+              color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+}
