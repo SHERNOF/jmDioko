@@ -13,11 +13,19 @@
     .col {
       padding: 3rem;
       .s6 {
+        &:nth-child(1) {
+          p {
+            font-size: 1.4rem;
+          }
+        }
         &:nth-child(2) {
           color: $primary-color;
         }
         .card-panel {
-          .history {
+          .mission {
+            p {
+              font-size: 1rem;
+            }
           }
 
           .vision {

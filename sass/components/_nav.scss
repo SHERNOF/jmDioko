@@ -1,6 +1,6 @@
 nav {
   .nav-wrapper {
-    z-index: 30;
+    z-index: 2;
     border-bottom: 1px solid white;
     .container {
       .brand-logo,
@@ -10,10 +10,13 @@ nav {
       }
 
       ul.side-nav li a {
-        color: white;
+        color: red;
+        z-index: initial;
       }
-    }
-    .side-nav {
+
+      ul#mobile-nav {
+        // z-index: 50;
+      }
     }
   }
 }

@@ -28,6 +28,10 @@ document.querySelector(".statement").addEventListener("click", function () {
   $("#statement").fadeIn()
 })
 
+document.querySelector(".statements").addEventListener("click", function () {
+  $("#statement").fadeIn()
+})
+
 document.querySelector(".joel-close").addEventListener("click", function (e) {
   e.preventDefault()
   $(".graphs").hide()
