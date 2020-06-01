@@ -25,18 +25,6 @@ $(document).ready(function () {
   ]
   Materialize.scrollFire(options)
 
-  const option2 = [
-    {
-      selector: ".navbar-fixed",
-      offset: 1000,
-      callback: function () {
-        $("nav").removeClass("black darken-3")
-        $("nav").addClass("transparent")
-      }
-    }
-  ]
-  Materialize.scrollFire(option2)
-
   $(".count").each(function () {
     $(this)
       .prop("Counter", 0)
