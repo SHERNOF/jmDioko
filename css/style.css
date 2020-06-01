@@ -93,6 +93,15 @@ p {
       font-size: 3.5rem; }
     .main-header .showcase h4 {
       font-size: 3rem; }
+    @media (max-width: 37.5em) {
+      .main-header .showcase {
+        padding-top: 30rem; } }
+    .main-header .showcase h1 {
+      font-size: 4rem; }
+    .main-header .showcase h2 {
+      font-size: 2.3rem; }
+    .main-header .showcase h4 {
+      font-size: 2.5rem; }
   .main-header .scroll-icon {
     position: absolute;
     bottom: 5%;
@@ -117,6 +126,12 @@ p {
           .about .row .col .s6:nth-child(1) ol li p {
             font-size: 1.4rem;
             line-height: 1.8; }
+            @media (max-width: 56.25em) {
+              .about .row .col .s6:nth-child(1) ol li p {
+                font-size: 1.3rem; } }
+            @media (max-width: 37.5em) {
+              .about .row .col .s6:nth-child(1) ol li p {
+                font-size: 1.1rem; } }
       .about .row .col .s6:nth-child(2) .vision {
         margin-left: 2.5rem; }
 
