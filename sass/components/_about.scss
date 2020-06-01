@@ -34,6 +34,10 @@
         &:nth-child(2) {
           .vision {
             margin-left: 2.5rem;
+            @include respond(phone) {
+              // display: grid;
+              // align-items: center;
+            }
           }
         }
       }

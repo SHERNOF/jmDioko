@@ -95,13 +95,7 @@ p {
       font-size: 3rem; }
     @media (max-width: 37.5em) {
       .main-header .showcase {
-        padding-top: 30rem; } }
-    .main-header .showcase h1 {
-      font-size: 4rem; }
-    .main-header .showcase h2 {
-      font-size: 2.3rem; }
-    .main-header .showcase h4 {
-      font-size: 2.5rem; }
+        padding-top: 37rem; } }
   .main-header .scroll-icon {
     position: absolute;
     bottom: 5%;
