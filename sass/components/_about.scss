@@ -1,52 +1,31 @@
 .about {
   position: relative;
-  background-image: linear-gradient(105deg, rgba(white, 0.9) 50%, rgba(white, 0.2) 50%, rgba(black, 0.6) 50%), url(/img/section/section.jpg);
+  // background-image: linear-gradient(105deg, rgba(white, 0.9) 50%, rgba(white, 0.2) 50%, rgba(black, 0.6) 50%), url(/img/section/section.jpg);
+  background-image: linear-gradient(105deg, rgba(black, 0.6) 50%, rgba(white, 0.2) 50%, rgba(white, 0.9) 50%), url(/img/section/section.jpg);
   height: 40vh;
-  z-index: 50;
-  margin-top: -5rem;
-  margin-bottom: 5rem;
-  // @include respond(tab-port) {
-  //   margin-top: -10rem;
-  // }
-  // @include respond(tab-land) {
-  //   margin-top: -10rem;
-  // }
-  // @include respond(phone) {
-  //   margin-top: -10rem;
-  // }
 
   .row {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
     border: 0px;
+
     .col {
-      padding: 3rem;
+      padding: 2rem;
       .s6 {
         &:nth-child(1) {
-          p {
-            font-size: 1rem;
-            @include respond(phone) {
-              font-size: 32%;
+          color: $primary-color;
+          ol {
+            font-size: 1.3rem;
+            li p {
+              font-size: 1.4rem;
+              line-height: 1.8;
             }
           }
         }
         &:nth-child(2) {
-          color: $primary-color;
-          p {
-            @include respond(phone) {
-              font-size: 35%;
-            }
-          }
-        }
-        .card-panel {
-          .mission {
-            p {
-              font-size: 1rem;
-            }
-          }
-
           .vision {
+            margin-left: 2.5rem;
           }
         }
       }

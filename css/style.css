@@ -78,6 +78,13 @@ p {
     width: 100%;
     height: 100%;
     overflow: hidden; }
+    .main-header .primary-overlay .navbar-fixed .transparent {
+      border-bottom: 1px solid white; }
+      .main-header .primary-overlay .navbar-fixed .transparent .container .nav-wrapper a,
+      .main-header .primary-overlay .navbar-fixed .transparent .container .nav-wrapper ul {
+        color: gold; }
+      .main-header .primary-overlay .navbar-fixed .transparent .container .nav-wrapper ul a {
+        font-size: 1.5rem; }
   .main-header .showcase {
     padding-top: 20rem; }
     .main-header .showcase h1 {
@@ -90,34 +97,28 @@ p {
     position: absolute;
     bottom: 5%;
     left: 47%;
-    opacity: 0.5; }
+    color: gold; }
 
 .about {
   position: relative;
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(0, 0, 0, 0.6) 50%), url(/img/section/section.jpg);
-  height: 40vh;
-  z-index: 50;
-  margin-top: -5rem;
-  margin-bottom: 5rem; }
+  background-image: linear-gradient(105deg, rgba(0, 0, 0, 0.6) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.9) 50%), url(/img/section/section.jpg);
+  height: 40vh; }
   .about .row {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
     border: 0px; }
     .about .row .col {
-      padding: 3rem; }
-      .about .row .col .s6:nth-child(1) p {
-        font-size: 1rem; }
-        @media (max-width: 37.5em) {
-          .about .row .col .s6:nth-child(1) p {
-            font-size: 32%; } }
-      .about .row .col .s6:nth-child(2) {
+      padding: 2rem; }
+      .about .row .col .s6:nth-child(1) {
         color: gold; }
-        @media (max-width: 37.5em) {
-          .about .row .col .s6:nth-child(2) p {
-            font-size: 35%; } }
-      .about .row .col .s6 .card-panel .mission p {
-        font-size: 1rem; }
+        .about .row .col .s6:nth-child(1) ol {
+          font-size: 1.3rem; }
+          .about .row .col .s6:nth-child(1) ol li p {
+            font-size: 1.4rem;
+            line-height: 1.8; }
+      .about .row .col .s6:nth-child(2) .vision {
+        margin-left: 2.5rem; }
 
 .graphs {
   display: none; }
