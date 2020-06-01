@@ -1,72 +1,41 @@
-.showcase {
+.main-header {
+  background: url(../img/main11.jpg);
+  background-size: cover;
+  background-position: center;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  // margin-bottom: 5rem;
+  min-height: 60rem;
+  color: $primary-color;
+  position: relative;
+  margin-bottom: 5rem;
 
-  .main-text {
-    display: grid;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    text-align: left;
-    .bGnd {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
+  & .primary-overlay {
+    //  background: rgba(63, 57, 77, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
 
-      &:after {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 1;
-        background: rgba(black, 0.1);
-      }
-      & img {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
+  & .showcase {
+    padding-top: 20rem;
+
+    h1 {
+      font-size: 4.5rem;
     }
-
-    .intro {
-      margin-top: -10rem;
-      z-index: 1;
-      h1 {
-        color: $primary-color;
-        margin: 0 0;
-      }
-      p {
-        color: $white;
-      }
+    h2 {
+      font-size: 3.5rem;
     }
-
-    .down {
-      position: absolute;
-      display: flex;
-      text-align: center;
-      bottom: 5%;
-      left: 47%;
-      z-index: 1;
-      h6 {
-        color: $primary-color;
-        font-size: 1rem;
-      }
-      i {
-        color: $primary-color;
-        font-size: 4rem;
-      }
+    h4 {
+      font-size: 3rem;
     }
+  }
+
+  & .scroll-icon {
+    position: absolute;
+    bottom: 5%;
+    left: 47%;
+    opacity: 0.5;
   }
 }
