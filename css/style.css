@@ -73,8 +73,9 @@ p {
   margin-bottom: 5rem; }
   @media (max-width: 37.5em) {
     .main-header {
-      height: 50vh; } }
+      height: 75vh; } }
   .main-header .primary-overlay {
+    background: #3b3d1633;
     position: absolute;
     top: 0;
     left: 0;
@@ -89,19 +90,19 @@ p {
       .main-header .primary-overlay .navbar-fixed .transparent .container .nav-wrapper ul a {
         font-size: 1.5rem; }
   .main-header .showcase {
-    padding-top: 20rem; }
+    padding-top: 25rem; }
     .main-header .showcase h1 {
       font-size: 4.5rem; }
     .main-header .showcase h2 {
       font-size: 3.5rem; }
     .main-header .showcase h4 {
       font-size: 3rem; }
+    @media (max-width: 56.25em) {
+      .main-header .showcase {
+        padding-top: 40rem; } }
     @media (max-width: 75em) {
       .main-header .showcase {
         padding-top: 15rem; } }
-    @media (max-width: 56.25em) {
-      .main-header .showcase {
-        padding-top: 50rem; } }
     @media (max-width: 37.5em) {
       .main-header .showcase {
         padding-top: 18rem; }

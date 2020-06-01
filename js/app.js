@@ -19,11 +19,11 @@ $(document).ready(function () {
       offset: 1500,
       callback: function () {
         $("nav").removeClass("transparent")
-        $("nav").addClass("black darken-3")
+        $("nav").addClass("black darken-1")
       }
     }
   ]
-  Materialize.scrollFire(options)
+  // Materialize.scrollFire(options)
 
   $(".count").each(function () {
     $(this)

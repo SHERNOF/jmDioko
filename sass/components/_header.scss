@@ -13,6 +13,7 @@
   }
 
   & .primary-overlay {
+    background: #3b3d1633;
     //  background: rgba(63, 57, 77, 0.7);
     position: absolute;
     top: 0;
@@ -40,7 +41,7 @@
   }
 
   & .showcase {
-    padding-top: 20rem;
+    padding-top: 25rem;
 
     //  z-index: 10;
 
@@ -53,11 +54,12 @@
     h4 {
       font-size: 3rem;
     }
+
+    @include respond(tab-port) {
+      padding-top: 40rem;
+    }
     @include respond(tab-land) {
       padding-top: 15rem;
-    }
-    @include respond(tab-port) {
-      padding-top: 50rem;
     }
     @include respond(phone) {
       padding-top: 18rem;
