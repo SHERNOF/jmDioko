@@ -71,6 +71,9 @@ p {
   color: gold;
   position: relative;
   margin-bottom: 5rem; }
+  @media (max-width: 37.5em) {
+    .main-header {
+      height: 50vh; } }
   .main-header .primary-overlay {
     position: absolute;
     top: 0;
@@ -93,9 +96,18 @@ p {
       font-size: 3.5rem; }
     .main-header .showcase h4 {
       font-size: 3rem; }
+    @media (max-width: 56.25em) {
+      .main-header .showcase {
+        padding-top: 50rem; } }
     @media (max-width: 37.5em) {
       .main-header .showcase {
-        padding-top: 37rem; } }
+        padding-top: 20rem; }
+        .main-header .showcase h1 {
+          font-size: 4rem; }
+        .main-header .showcase h2 {
+          font-size: 2.3rem; }
+        .main-header .showcase h4 {
+          font-size: 2.5rem; } }
   .main-header .scroll-icon {
     position: absolute;
     bottom: 5%;
@@ -145,6 +157,14 @@ p {
   padding-top: 1rem; }
   .galleries .container .row .col .card .center-align span {
     font-size: 1.5rem; }
+    @media (max-width: 56.25em) {
+      .galleries .container .row .col .card .center-align span {
+        font-size: 1rem;
+        color: red; } }
+    @media (max-width: 37.5em) {
+      .galleries .container .row .col .card .center-align span {
+        font-size: 0.8rem;
+        color: red; } }
 
 .galleries .container .row .col .card .card-image span {
   font-size: 2rem;

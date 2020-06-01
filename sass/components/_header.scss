@@ -8,6 +8,10 @@
   position: relative;
   margin-bottom: 5rem;
 
+  @include respond(phone) {
+    height: 50vh;
+  }
+
   & .primary-overlay {
     //  background: rgba(63, 57, 77, 0.7);
     position: absolute;
@@ -49,19 +53,22 @@
     h4 {
       font-size: 3rem;
     }
-    @include respond(phone) {
-      padding-top: 37rem;
+    @include respond(tab-port) {
+      padding-top: 50rem;
     }
+    @include respond(phone) {
+      padding-top: 20rem;
 
-    //  h1 {
-    //    font-size: 4rem;
-    //  }
-    //  h2 {
-    //    font-size: 2.3rem;
-    //  }
-    //  h4 {
-    //    font-size: 2.5rem;
-    //  }
+      h1 {
+        font-size: 4rem;
+      }
+      h2 {
+        font-size: 2.3rem;
+      }
+      h4 {
+        font-size: 2.5rem;
+      }
+    }
   }
 
   & .scroll-icon {
