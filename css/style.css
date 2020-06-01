@@ -117,14 +117,12 @@ p {
           .about .row .col .s6:nth-child(1) ol li p {
             font-size: 1.4rem;
             line-height: 1.8; }
-            @media (max-width: 37.5em) {
-              .about .row .col .s6:nth-child(1) ol li p {
-                font-size: 1.1rem; } }
       .about .row .col .s6:nth-child(2) .vision {
         margin-left: 2.5rem; }
 
 .graphs {
-  display: none; }
+  display: none;
+  margin-top: 5rem; }
   .graphs .container .data {
     display: flex;
     justify-content: space-between;
