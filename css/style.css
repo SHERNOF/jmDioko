@@ -96,6 +96,9 @@ p {
       font-size: 3.5rem; }
     .main-header .showcase h4 {
       font-size: 3rem; }
+    @media (max-width: 75em) {
+      .main-header .showcase {
+        padding-top: 15rem; } }
     @media (max-width: 56.25em) {
       .main-header .showcase {
         padding-top: 50rem; } }
