@@ -35,7 +35,7 @@ html {
       font-size: 50%; } }
   @media (max-width: 37.5em) {
     html {
-      font-size: 35%; } }
+      font-size: 37.5%; } }
   @media (min-width: 112.5em) {
     html {
       font-size: 75%; } }
@@ -117,6 +117,9 @@ p {
           .about .row .col .s6:nth-child(1) ol li p {
             font-size: 1.4rem;
             line-height: 1.8; }
+            @media (max-width: 37.5em) {
+              .about .row .col .s6:nth-child(1) ol li p {
+                font-size: 1.1rem; } }
       .about .row .col .s6:nth-child(2) .vision {
         margin-left: 2.5rem; }
 
