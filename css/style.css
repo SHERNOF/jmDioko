@@ -176,3 +176,17 @@ p {
 .galleries .container .row .col .card .card-image span {
   font-size: 2rem;
   color: black; }
+
+.section-contact {
+  position: relative; }
+
+.section-contact .card-panel {
+  position: relative; }
+
+#googlemap {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10; }
