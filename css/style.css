@@ -75,7 +75,6 @@ p {
     .main-header {
       height: 75vh; } }
   .main-header .primary-overlay {
-    background: #3b3d1633;
     position: absolute;
     top: 0;
     left: 0;
@@ -91,6 +90,13 @@ p {
         font-size: 1.5rem; }
   .main-header .showcase {
     padding-top: 25rem; }
+    .main-header .showcase img {
+      position: absolute;
+      width: 35rem;
+      height: 12rem;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%); }
     .main-header .showcase h1 {
       font-size: 4.5rem; }
     .main-header .showcase h2 {
