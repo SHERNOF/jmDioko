@@ -93,7 +93,7 @@ p {
     .main-header .showcase img {
       position: absolute;
       width: 35rem;
-      height: 12rem;
+      height: 14rem;
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%); }
@@ -187,12 +187,5 @@ p {
   position: relative; }
 
 .section-contact .card-panel {
-  position: relative; }
-
-#googlemap {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
+  position: relative;
   z-index: 10; }
