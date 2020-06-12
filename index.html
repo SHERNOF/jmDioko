@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Sacramento&display=swap" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link rel="stylesheet" href="css/style.css" />
@@ -22,13 +23,11 @@
   <body id="home" class="scrollspy">
     <header class="main-header">
       <div class="primary-overlay">
-        <div class="navbar-fixed test">
+        <!-- <div class="navbar-fixed test"> -->
           <nav class="transparent">
             <div class="container">
               <div class="nav-wrapper">
-                <a href="#" class="brand-logo">JMD
-                  <!-- <img src="img/2jmdiokofinal.png" class="small" alt=""> -->
-                </a>
+                <a href="#" class="brand-logo">JMD</a>
                   
                 
                 <a href="#!" data-activates="mobile-nav" class="button-collapse">
@@ -107,7 +106,7 @@
           <div class="row">
             <div class="col s12 main-text">
               <!-- <h1>JMDioko</h1> -->
-              <img src="img/4jmdiokofinal.png" alt="">
+              <img src="img/gold.png" alt="">
               <!-- <h2 class="flow-text">Engineering and Construction</h2>
               <h4 class="flow-text">You Dream It, We Build It</h4> -->
               <br />
@@ -120,7 +119,7 @@
               </a>
             </div>
           </div>
-        </div>
+        <!-- </div> -->
       </div>
     </header>
 
@@ -309,7 +308,8 @@
             <div class="col s6 m3">
               <div class="card">
                 <div class="card-image">
-                  <img src="https://source.unsplash.com/1600x900/?building" class="materialboxed responsive-img" alt="">  
+                  <!-- <img src="https://source.unsplash.com/1600x900/?building" class="materialboxed responsive-img" alt="">   -->
+                  <img src="img/gallery/5.png" class="materialboxed responsive-img" alt="">
                 </div>
                 <div class="center-align">
                   <span class="card-title center-align">Lorem ipsum dolor sit amet.</span>
@@ -320,7 +320,8 @@
             <div class="col s6 m3">
               <div class="card">
                 <div class="card-image">
-                  <img src="https://source.unsplash.com/1600x900/?civil-engineering" class="materialboxed responsive-img" alt="">
+                  <!-- <img src="https://source.unsplash.com/1600x900/?civil-engineering" class="materialboxed responsive-img" alt=""> -->
+                  <img src="img/gallery/5.png" class="materialboxed responsive-img" alt="">
                 </div>
                 <div class="center-align">
                   <span class="card-title">Lorem ipsum dolor sit amet.</span>
@@ -331,7 +332,8 @@
             <div class="col s6 m3">
               <div class="card">
                 <div class="card-image">
-                  <img src="https://source.unsplash.com/1600x900/?house" class="materialboxed responsive-img" alt="">
+                  <!-- <img src="https://source.unsplash.com/1600x900/?house" class="materialboxed responsive-img" alt=""> -->
+                  <img src="img/gallery/5.png" class="materialboxed responsive-img" alt="">
                 </div>
                 <div class="center-align">
                   <span class="card-title">Lorem ipsum dolor sit amet.</span>  
@@ -391,79 +393,121 @@
         </div>
       </section> 
 
-      <section id="contact" class="section section-contact center scrollspy">
-        <div id="googlemap"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col s12 m6 offset-m6">
 
-              <!-- <form id="gform" method="POST" class="gform pure-form pure-form-stacked" data-email="from_email@example.com" action="https://script.google.com/macros/s/AKfycbyzefnET4Vnnmf9K42-RBcU13YWEiRtej3e4MbcvA/exec"> -->
-                <form id="gform" method="POST" class="gform pure-form pure-form-stacked" data-email="from_email@example.com" action="https://script.google.com/macros/s/AKfycby3uQI1bV8nuwOTpYuW7nRpRovYGr9h8HoGk_L4jFwZ27cwPWUr/exec">
-                
+      <div class="break">
+        <br>
+      </div>
+
+        <footer class="footer section darken-2 white-text  container">
+          <h4 class="black-text white-text center-align contactUs"><span style="color: gold">Contact</span style="color: gold"> Us</h4>
+          <div class="row scrollspy" id="contact">
+            
+            <div class="col  s12 m6 l6 social">
               
-                <div class="card-panel z-depth-5 ">           
-                  
+              <div class="transparent">
+                <h6 class="">Keeping in touch with us is easy. We're here at your service!!</h6>
 
-                  <div class="form-elements">
-                    <h4>Contact Us</h4>
-
-                    <div class="input-field pure-group">
-                      <input type="text" name="name" id="name" placeholder="Name" >                  
-                      <label for="name">Name</label>
-                    </div>
-                    
-                    <div class="input-field pure-group">
-                      <input type="email" id="email" name="email" placeholder="Email">
-                      <label for="email">Email</label>
-                    </div>
-                    
-                    <div class="input-field pure-group">
-                      <input type="text" id="phone" name="phone" placeholder="Phone Number">
-                      <label for="phone">Phone</label>
-                    </div>
-                    
-                    <div class="input-field pure-group">
-                      <textarea class="materialize-textarea" id="message" name="message" placeholder="Message"></textarea>
-                      <label for="message">Message</label>
-                    </div>
-
-                    <input type="submit" onclick="noData()" value="Submit" class="btn blue-grey testMail">
-
-                </div> 
-
-                <div style="display:none;"  class="thanks" id="thankyou_message">
-                  <h2>
-                      <em>Thanks</em> for contacting us!
-                      We will get back to you soon!
-                  </h2>
-                </div> 
-
+                <div class="prop">
+                  <!-- <h5>At your service:</h5> -->
+                  <p style="color: gold">Engr. Joel M. Dioko - General Manager</p>                  
+                </div>
+                
+                <div class="info">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fas fa-envelope "></i> jm.dioko@yahoo.com</a>
+                    </li>
+                    <li>
+                      <br>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fas fa-phone white-text "> </i> 02-2522344 | 09226835066 | 09175449099</a>
+                    </li>
+                    <li>
+                      <br>
+                    </li>
+                
+                    <li>
+                      <a href="#"><i class="fas fa-map-marker-alt white-text "></i> Cordillera St, Springville Hts, Molino 7, Bacoor City, Cavite 4102</a>
+                    </li>
+                  </ul>
+                </div>
+                
+                <div class="social-icons">
+                  <div>
+                    <a href="facebook.com"><i class="fab fa-facebook-f"></i></a>
+                  </div>
+                  <div>
+                    <a href="linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                  <div>
+                    <a href="twitter.com"><i class="fab fa-twitter"></i></a>
+                  </div>
+                </div>
                 
               </div>
-            </form>
-
-                  
-                  
-              </div>
+            </div>  
+              
+                <div class="col s12 m6 l6 contact">
+                  <div class="transparent">
+                        <div class="">
+                              <form id="gform" method="POST" class="gform pure-form pure-form-stacked" data-email="from_email@example.com" action="https://script.google.com/macros/s/AKfycbzdG5RMiQkNKImS4DO2TSjnVcZZdR9j4DhW-cuZEQ/exec">
+                                
+                                <div class="card-panel z-depth-50 black lighten-4 ">           
+                                
+                                  <div class="form-elements ">
+                                    <!-- <h4 class="black-text white-text center-align">Contact Us</h4> -->
+                
+                                    <div class="input-field pure-group">
+                                      <input type="text" name="name"   id="name" placeholder="" >                  
+                                      <label for="name" class="white-text">Name</label>
+                                    </div>
+                                    
+                                    <div class="input-field pure-group">
+                                      <input type="email" id="email" name="email"  placeholder="">
+                                      <label for="email" class="white-text">Email</label>
+                                    </div>
+                                    
+                                    <div class="input-field pure-group">
+                                      <input type="text" id="phone" name="phone" placeholder="" >
+                                      <label for="phone" class="white-text">Phone</label>
+                                    </div>
+                                    
+                                    <div class="input-field pure-group">
+                                      <textarea class="materialize-textarea white-text" id="message" name="message" placeholder=""></textarea>
+                                      <label for="message" class="white-text">Message</label>
+                                    </div>
+                
+                                    <input type="submit" onclick="noData()" value="Submit" class="btn blue-grey testMail">
+                
+                                </div> 
+              
+                              <div style="display:none; "  class="thanks" id="thankyou_message">
+                                <h2>
+                                    <em">Thanks</em> for contacting us!
+                                    We will get back to you soon!
+                                </h2>
+                              </div> 
+              
+                              
+                            </div>
+                          </form>
+            
+                      </div>
+                    </div>
+              
+                  </div>
             </div>
-          </div>
+                
+        </footer>
+        <div class="center-align cRight">
+          <p class="flow-text center-align white-text"><span class="yellow-text">JMDioko</span> &copy; 2020</p>
         </div>
-      </section>
 
-
-            <!-- <footer class="footer section darken-2 white-text center">
-        <p class="flow-text "><span class="yellow-text">JMDioko</span> &copy; 2020</p>
-      </footer> -->
+        
 
       <!-- email -->
-      <!-- <script data-cfasync="false" type="text/javascript"
-            src="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/form-submission-handler.js"></script> -->
-
-            <script data-cfasync="false" type="text/javascript" src="/js/form-submission-handler.js"></script> 
-
-    <!-- google maps  -->
-    
-    
+    <script data-cfasync="false" type="text/javascript" src="/js/form-submission-handler.js"></script>     
 
     <!-- canvasjs -->
     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>

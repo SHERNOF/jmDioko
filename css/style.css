@@ -22,7 +22,7 @@ ORDER: Base, typography, general layout, grid >> page layout
   box-sizing: inherit; }
 
 body {
-  background: black; }
+  background: #222020; }
 
 html {
   font-size: 62.5%;
@@ -39,6 +39,9 @@ html {
   @media (min-width: 112.5em) {
     html {
       font-size: 75%; } }
+
+.break {
+  border-top: 1px solid white; }
 
 h1 {
   font-size: 3.5rem; }
@@ -63,7 +66,7 @@ p {
   font-weight: 300; }
 
 .main-header {
-  background: url(../img/main11.jpg);
+  background: url(../img/main12.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -75,28 +78,28 @@ p {
     .main-header {
       height: 75vh; } }
   .main-header .primary-overlay {
+    background: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     overflow: hidden; }
-    .main-header .primary-overlay .navbar-fixed .transparent {
+    .main-header .primary-overlay .transparent {
       border-bottom: 1px solid white; }
-      .main-header .primary-overlay .navbar-fixed .transparent .container .nav-wrapper a,
-      .main-header .primary-overlay .navbar-fixed .transparent .container .nav-wrapper ul {
+      .main-header .primary-overlay .transparent .container .nav-wrapper a,
+      .main-header .primary-overlay .transparent .container .nav-wrapper ul {
         color: gold; }
-      .main-header .primary-overlay .navbar-fixed .transparent .container .nav-wrapper ul a {
-        font-size: 1.5rem; }
+      .main-header .primary-overlay .transparent .container .nav-wrapper ul a {
+        font-size: 1.3rem; }
   .main-header .showcase {
     padding-top: 25rem; }
     .main-header .showcase img {
       position: absolute;
-      width: 35rem;
-      height: 14rem;
-      left: 50%;
+      width: 55rem;
+      height: 12rem;
       top: 50%;
-      transform: translate(-50%, -50%); }
+      transform: translate(0%, -50%); }
     .main-header .showcase h1 {
       font-size: 4.5rem; }
     .main-header .showcase h2 {
@@ -189,3 +192,85 @@ p {
 .section-contact .card-panel {
   position: relative;
   z-index: 10; }
+
+footer .contactUs {
+  font-size: 4rem; }
+
+footer .row {
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
+  @media (max-width: 37.5em) {
+    footer .row {
+      flex-direction: column; } }
+  @media (max-width: 37.5em) {
+    footer .row .social {
+      margin-bottom: 4rem; } }
+  footer .row .social .transparent h6 {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem; }
+    @media (max-width: 37.5em) {
+      footer .row .social .transparent h6 {
+        margin-bottom: 1rem; } }
+  footer .row .social .transparent .prop {
+    margin-bottom: 2rem; }
+    footer .row .social .transparent .prop p {
+      font-size: 2.8rem; }
+    footer .row .social .transparent .prop h5 {
+      font-size: 1.5rem; }
+  footer .row .social .transparent .info i {
+    font-size: 1.5rem;
+    color: white;
+    margin-right: 2rem; }
+  footer .row .social .transparent .info ul li a {
+    color: gold;
+    font-size: 1.5rem; }
+  footer .row .social .transparent .social-icons {
+    display: flex;
+    margin-top: 2rem; }
+    footer .row .social .transparent .social-icons div:nth-child(1) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border: 1px solid white;
+      height: 2.5rem;
+      width: 2.5rem;
+      border-radius: 50%;
+      margin-right: 2rem;
+      background: #3b5998; }
+    footer .row .social .transparent .social-icons div:nth-child(2) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border: 1px solid white;
+      height: 2.5rem;
+      width: 2.5rem;
+      border-radius: 50%;
+      background: #0072b1;
+      margin-right: 2rem; }
+    footer .row .social .transparent .social-icons div:nth-child(3) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border: 1px solid white;
+      height: 2.5rem;
+      width: 2.5rem;
+      border-radius: 50%;
+      background: #00acee; }
+    footer .row .social .transparent .social-icons i {
+      color: white;
+      font-size: 1rem; }
+  footer .row .contact .card-panel {
+    border-bottom: none; }
+  footer .row .contact .transparent label {
+    font-size: 1.5rem; }
+
+.cRight {
+  margin-top: 4rem;
+  border-top: 1px solid white;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }

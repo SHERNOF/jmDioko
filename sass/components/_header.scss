@@ -1,5 +1,5 @@
 .main-header {
-  background: url(../img/main11.jpg);
+  background: url(../img/main12.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -13,12 +13,7 @@
   }
 
   & .primary-overlay {
-    // background: rgba(54, 63, 24, 0.199);
-    // background: rgba(#bdc3c7, 0.199);
-    // background: rgba(88, 199, 250, 0.7);
-    // background: linear-gradient(to left, #2c3e50, #bdc3c7), url(/img/section/main.jpg);
-    // background-image: linear-gradient(90deg, #2c3e50, #bdc3c7, url(/img/section/main.jpg));
-    // background-image: linear-gradient(to right, rgba(#ffefba, 0.6), rgba(#ffffff, 0.2), rgba(#ffffff, 0.5) 70%), url(/img/section/main.jpg);
+    background: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
     left: 0;
@@ -26,38 +21,33 @@
     height: 100%;
     overflow: hidden;
 
-    & .navbar-fixed {
-      .transparent {
-        border-bottom: 1px solid white;
-        .container {
-          .nav-wrapper {
-            a,
-            ul {
-              color: $primary-color;
-            }
-            ul a {
-              font-size: 1.5rem;
-            }
+    // & .navbar-fixed {
+    .transparent {
+      border-bottom: 1px solid white;
+      .container {
+        .nav-wrapper {
+          a,
+          ul {
+            color: $primary-color;
+          }
+          ul a {
+            font-size: 1.3rem;
           }
         }
       }
+      // }
     }
   }
 
   & .showcase {
     img {
       position: absolute;
-      width: 35rem;
-      height: 14rem;
-      // margin-top: 20rem;
-      // margin-left: 35rem;
-      left: 50%;
+      width: 55rem;
+      height: 12rem;
       top: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(0%, -50%);
     }
     padding-top: 25rem;
-
-    //  z-index: 10;
 
     h1 {
       font-size: 4.5rem;
