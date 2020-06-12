@@ -169,7 +169,7 @@ p {
           font-size: 1.5rem; }
           .about .row .s12:nth-child(1) .mission ol li p {
             font-size: 1.4rem;
-            line-height: 1; } }
+            line-height: 1.4; } }
     .about .row .s12:nth-child(2) {
       padding: 2rem; }
       .about .row .s12:nth-child(2) .vision {
@@ -184,7 +184,7 @@ p {
           font-size: 1.6rem; } }
       @media (max-width: 37.5em) {
         .about .row .s12:nth-child(2) .vision {
-          margin-top: -2rem; }
+          margin-top: -4rem; }
           .about .row .s12:nth-child(2) .vision p {
             font-size: 1.5rem; } }
 
