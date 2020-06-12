@@ -132,30 +132,54 @@ p {
 
 .about {
   position: relative;
-  background-image: linear-gradient(105deg, rgba(0, 0, 0, 0.6) 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.9) 50%), url(/img/section/section.jpg);
-  height: 40vh; }
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 50%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.8) 50%), url(/img/section/section.jpg);
+  height: 50vh; }
+  @media (max-width: 37.5em) {
+    .about {
+      background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 50%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.8) 50%), url(/img/section/section.jpg);
+      height: 40vh; } }
   .about .row {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
-    border: 0px; }
-    .about .row .col {
+    padding: 2rem; }
+    @media (max-width: 37.5em) {
+      .about .row {
+        top: 42%; } }
+    .about .row .s12:nth-child(1) .mission {
+      color: gold;
       padding: 2rem; }
-      .about .row .col .s6:nth-child(1) {
-        color: gold; }
-        .about .row .col .s6:nth-child(1) ol {
-          font-size: 1.3rem; }
-          .about .row .col .s6:nth-child(1) ol li p {
-            font-size: 1.4rem;
-            line-height: 1.8; }
-            @media (max-width: 56.25em) {
-              .about .row .col .s6:nth-child(1) ol li p {
-                font-size: 1.3rem; } }
-            @media (max-width: 37.5em) {
-              .about .row .col .s6:nth-child(1) ol li p {
-                font-size: 1.1rem; } }
-      .about .row .col .s6:nth-child(2) .vision {
-        margin-left: 2.5rem; }
+      .about .row .s12:nth-child(1) .mission ol {
+        font-size: 2rem; }
+        .about .row .s12:nth-child(1) .mission ol li p {
+          font-size: 2rem;
+          line-height: 1.8; }
+    @media (max-width: 75em) {
+      .about .row .s12:nth-child(1) .mission ol li p {
+        font-size: 1.5rem;
+        line-height: 1.4; } }
+    @media (max-width: 37.5em) {
+      .about .row .s12:nth-child(1) .mission {
+        margin-top: 2rem; }
+        .about .row .s12:nth-child(1) .mission ol {
+          font-size: 1.5rem; }
+          .about .row .s12:nth-child(1) .mission ol li p {
+            font-size: 1.2rem;
+            line-height: 1.8; } }
+    .about .row .s12:nth-child(2) {
+      padding: 2rem; }
+      .about .row .s12:nth-child(2) .vision {
+        margin-top: 4rem; }
+        .about .row .s12:nth-child(2) .vision p {
+          font-size: 2.5rem; }
+      @media (max-width: 75em) {
+        .about .row .s12:nth-child(2) .vision p {
+          font-size: 1.5rem; } }
+      @media (max-width: 37.5em) {
+        .about .row .s12:nth-child(2) .vision {
+          margin-top: -2rem; }
+          .about .row .s12:nth-child(2) .vision p {
+            font-size: 1.5rem; } }
 
 .graphs {
   display: none;
