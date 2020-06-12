@@ -136,7 +136,7 @@ p {
   height: 50vh; }
   @media (max-width: 37.5em) {
     .about {
-      background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 50%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.8) 50%), url(/img/section/section.jpg);
+      background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0.8) 40%), url(/img/section/section.jpg);
       height: 40vh; } }
   .about .row {
     position: absolute;
@@ -150,10 +150,14 @@ p {
       color: gold;
       padding: 2rem; }
       .about .row .s12:nth-child(1) .mission ol {
-        font-size: 2rem; }
+        font-size: 1.6rem; }
         .about .row .s12:nth-child(1) .mission ol li p {
-          font-size: 2rem;
+          font-size: 1.6rem;
           line-height: 1.8; }
+    @media (max-width: 75em) {
+      .about .row .s12:nth-child(1) .mission ol li p {
+        font-size: 1.6rem;
+        line-height: 1.4; } }
     @media (max-width: 56.25em) {
       .about .row .s12:nth-child(1) .mission ol li p {
         font-size: 1.5rem;
@@ -171,18 +175,18 @@ p {
       .about .row .s12:nth-child(2) .vision {
         margin-top: 4rem; }
         .about .row .s12:nth-child(2) .vision p {
-          font-size: 2.5rem; }
+          font-size: 2rem; }
+      @media (max-width: 75em) {
+        .about .row .s12:nth-child(2) .vision p {
+          font-size: 1.6rem; } }
       @media (max-width: 56.25em) {
         .about .row .s12:nth-child(2) .vision p {
-          font-size: 1.5rem; } }
+          font-size: 1.6rem; } }
       @media (max-width: 37.5em) {
         .about .row .s12:nth-child(2) .vision {
           margin-top: -2rem; }
           .about .row .s12:nth-child(2) .vision p {
             font-size: 1.5rem; } }
-      @media (max-width: 75em) {
-        .about .row .s12:nth-child(2) .vision p {
-          font-size: 1rem; } }
 
 .graphs {
   display: none;
@@ -234,52 +238,43 @@ footer .row {
     footer .row .social {
       margin-bottom: 4rem; } }
   footer .row .social .transparent h6 {
-    margin-top: 4rem;
+    margin-top: 6rem;
     margin-bottom: 2rem;
     font-size: 1.5rem; }
-    @media (max-width: 37.5em) {
-      footer .row .social .transparent h6 {
-        margin-bottom: 1rem; } }
   footer .row .social .transparent .prop {
     margin-bottom: 2rem; }
     footer .row .social .transparent .prop p {
-      font-size: 2.8rem; }
+      font-size: 2.4rem; }
     footer .row .social .transparent .prop h5 {
       font-size: 1.5rem; }
-    @media (max-width: 75em) {
-      footer .row .social .transparent .prop p {
-        font-size: 1.8rem;
-        color: red; }
-      footer .row .social .transparent .prop h5 {
-        font-size: 1.2rem; } }
     @media (max-width: 56.25em) {
       footer .row .social .transparent .prop p {
-        font-size: 1.8rem; }
-      footer .row .social .transparent .prop h5 {
-        font-size: 1.2rem; } }
+        font-size: 1.8rem; } }
+    @media (max-width: 37.5em) {
+      footer .row .social .transparent .prop p {
+        font-size: 3.2rem; } }
   footer .row .social .transparent .info i {
     font-size: 1.5rem;
     color: white;
-    margin-right: 2rem; }
+    margin-right: 1.5rem; }
   footer .row .social .transparent .info ul li a {
     color: gold;
     font-size: 1.5rem; }
   @media (max-width: 56.25em) {
     footer .row .social .transparent .info i {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
+      margin-right: 1rem; }
+    footer .row .social .transparent .info ul li a {
+      color: gold;
+      font-size: 1.3rem; } }
+  @media (max-width: 37.5em) {
+    footer .row .social .transparent .info i {
+      font-size: 2rem;
       color: white;
       margin-right: 1rem; }
     footer .row .social .transparent .info ul li a {
       color: gold;
-      font-size: 1rem; } }
-  @media (max-width: 75em) {
-    footer .row .social .transparent .info i {
-      font-size: 1rem;
-      color: white;
-      margin-right: 1rem; }
-    footer .row .social .transparent .info ul li a {
-      font-size: 1rem;
-      color: red; } }
+      font-size: 1.8rem; } }
   footer .row .social .transparent .social-icons {
     display: flex;
     margin-top: 2rem; }
@@ -318,6 +313,9 @@ footer .row {
     footer .row .social .transparent .social-icons i {
       color: white;
       font-size: 1rem; }
+  @media (max-width: 37.5em) {
+    footer .row .social .transparent h6 {
+      font-size: 2rem; } }
   footer .row .contact .card-panel {
     border-bottom: none; }
   footer .row .contact .transparent label {

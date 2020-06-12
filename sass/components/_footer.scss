@@ -20,45 +20,36 @@ footer {
       }
       & .transparent {
         h6 {
-          margin-top: 4rem;
+          margin-top: 6rem;
           margin-bottom: 2rem;
           font-size: 1.5rem;
-
-          @include respond(phone) {
-            margin-bottom: 1rem;
-          }
         }
         .prop {
           margin-bottom: 2rem;
           p {
-            font-size: 2.8rem;
+            font-size: 2.4rem;
           }
           h5 {
             font-size: 1.5rem;
           }
-          @include respond(tab-land) {
-            p {
-              font-size: 1.8rem;
-              color: red;
-            }
-            h5 {
-              font-size: 1.2rem;
-            }
-          }
+
           @include respond(tab-port) {
             p {
               font-size: 1.8rem;
             }
-            h5 {
-              font-size: 1.2rem;
+          }
+          @include respond(phone) {
+            p {
+              font-size: 3.2rem;
             }
           }
         }
+
         .info {
           i {
             font-size: 1.5rem;
             color: white;
-            margin-right: 2rem;
+            margin-right: 1.5rem;
           }
           ul li a {
             color: $primary-color;
@@ -67,25 +58,23 @@ footer {
 
           @include respond(tab-port) {
             i {
-              font-size: 1.2rem;
+              font-size: 1.3rem;
+              margin-right: 1rem;
+            }
+            ul li a {
+              color: $primary-color;
+              font-size: 1.3rem;
+            }
+          }
+          @include respond(phone) {
+            i {
+              font-size: 2rem;
               color: white;
               margin-right: 1rem;
             }
             ul li a {
               color: $primary-color;
-              font-size: 1rem;
-            }
-          }
-          @include respond(tab-land) {
-            i {
-              font-size: 1rem;
-              color: white;
-              margin-right: 1rem;
-            }
-            ul li a {
-              // color: $primary-color;
-              font-size: 1rem;
-              color: red;
+              font-size: 1.8rem;
             }
           }
         }
@@ -135,6 +124,12 @@ footer {
             color: white;
 
             font-size: 1rem;
+          }
+        }
+
+        @include respond(phone) {
+          h6 {
+            font-size: 2rem;
           }
         }
       }
