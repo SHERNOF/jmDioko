@@ -5,7 +5,7 @@
   height: 50vh;
 
   @include respond(phone) {
-    background-image: linear-gradient(180deg, rgba(black, 0.7) 0%, rgba(white, 0.5) 60%, rgba(white, 0.8) 40%), url(/img/section/section.jpg);
+    background-image: linear-gradient(180deg, rgba(black, 0.9) 40%, rgba(white, 0.5) 60%, rgba(white, 0.8) 40%), url(/img/section/section.jpg);
     height: 40vh;
   }
 
@@ -58,8 +58,8 @@
             ol {
               font-size: 1.5rem;
               li p {
-                font-size: 1.2rem;
-                line-height: 1.8;
+                font-size: 1.4rem;
+                line-height: 1;
               }
             }
           }

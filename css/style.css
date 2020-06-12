@@ -136,7 +136,7 @@ p {
   height: 50vh; }
   @media (max-width: 37.5em) {
     .about {
-      background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0.8) 40%), url(/img/section/section.jpg);
+      background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 40%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0.8) 40%), url(/img/section/section.jpg);
       height: 40vh; } }
   .about .row {
     position: absolute;
@@ -168,8 +168,8 @@ p {
         .about .row .s12:nth-child(1) .mission ol {
           font-size: 1.5rem; }
           .about .row .s12:nth-child(1) .mission ol li p {
-            font-size: 1.2rem;
-            line-height: 1.8; } }
+            font-size: 1.4rem;
+            line-height: 1; } }
     .about .row .s12:nth-child(2) {
       padding: 2rem; }
       .about .row .s12:nth-child(2) .vision {
