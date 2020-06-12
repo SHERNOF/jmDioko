@@ -29,7 +29,7 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
   @media (max-width: 75em) {
     html {
-      font-size: 56.25%; } }
+      font-size: 54.25%; } }
   @media (max-width: 56.25em) {
     html {
       font-size: 50%; } }
@@ -154,7 +154,7 @@ p {
         .about .row .s12:nth-child(1) .mission ol li p {
           font-size: 2rem;
           line-height: 1.8; }
-    @media (max-width: 75em) {
+    @media (max-width: 56.25em) {
       .about .row .s12:nth-child(1) .mission ol li p {
         font-size: 1.5rem;
         line-height: 1.4; } }
@@ -172,7 +172,7 @@ p {
         margin-top: 4rem; }
         .about .row .s12:nth-child(2) .vision p {
           font-size: 2.5rem; }
-      @media (max-width: 75em) {
+      @media (max-width: 56.25em) {
         .about .row .s12:nth-child(2) .vision p {
           font-size: 1.5rem; } }
       @media (max-width: 37.5em) {
@@ -180,6 +180,9 @@ p {
           margin-top: -2rem; }
           .about .row .s12:nth-child(2) .vision p {
             font-size: 1.5rem; } }
+      @media (max-width: 75em) {
+        .about .row .s12:nth-child(2) .vision p {
+          font-size: 1rem; } }
 
 .graphs {
   display: none;
@@ -243,6 +246,17 @@ footer .row {
       font-size: 2.8rem; }
     footer .row .social .transparent .prop h5 {
       font-size: 1.5rem; }
+    @media (max-width: 75em) {
+      footer .row .social .transparent .prop p {
+        font-size: 1.8rem;
+        color: red; }
+      footer .row .social .transparent .prop h5 {
+        font-size: 1.2rem; } }
+    @media (max-width: 56.25em) {
+      footer .row .social .transparent .prop p {
+        font-size: 1.8rem; }
+      footer .row .social .transparent .prop h5 {
+        font-size: 1.2rem; } }
   footer .row .social .transparent .info i {
     font-size: 1.5rem;
     color: white;
@@ -250,6 +264,22 @@ footer .row {
   footer .row .social .transparent .info ul li a {
     color: gold;
     font-size: 1.5rem; }
+  @media (max-width: 56.25em) {
+    footer .row .social .transparent .info i {
+      font-size: 1.2rem;
+      color: white;
+      margin-right: 1rem; }
+    footer .row .social .transparent .info ul li a {
+      color: gold;
+      font-size: 1rem; } }
+  @media (max-width: 75em) {
+    footer .row .social .transparent .info i {
+      font-size: 1rem;
+      color: white;
+      margin-right: 1rem; }
+    footer .row .social .transparent .info ul li a {
+      font-size: 1rem;
+      color: red; } }
   footer .row .social .transparent .social-icons {
     display: flex;
     margin-top: 2rem; }

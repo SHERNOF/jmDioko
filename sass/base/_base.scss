@@ -13,7 +13,7 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   @include respond(tab-land) {
     // < 900?
-    font-size: 56.25%; // 1rem = 9px; 9/16 = 50%
+    font-size: 54.25%; // 1rem = 9px; 9/16 = 50%
   }
   @include respond(tab-port) {
     // < 600?

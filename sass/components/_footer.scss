@@ -23,6 +23,7 @@ footer {
           margin-top: 4rem;
           margin-bottom: 2rem;
           font-size: 1.5rem;
+
           @include respond(phone) {
             margin-bottom: 1rem;
           }
@@ -35,6 +36,23 @@ footer {
           h5 {
             font-size: 1.5rem;
           }
+          @include respond(tab-land) {
+            p {
+              font-size: 1.8rem;
+              color: red;
+            }
+            h5 {
+              font-size: 1.2rem;
+            }
+          }
+          @include respond(tab-port) {
+            p {
+              font-size: 1.8rem;
+            }
+            h5 {
+              font-size: 1.2rem;
+            }
+          }
         }
         .info {
           i {
@@ -45,6 +63,30 @@ footer {
           ul li a {
             color: $primary-color;
             font-size: 1.5rem;
+          }
+
+          @include respond(tab-port) {
+            i {
+              font-size: 1.2rem;
+              color: white;
+              margin-right: 1rem;
+            }
+            ul li a {
+              color: $primary-color;
+              font-size: 1rem;
+            }
+          }
+          @include respond(tab-land) {
+            i {
+              font-size: 1rem;
+              color: white;
+              margin-right: 1rem;
+            }
+            ul li a {
+              // color: $primary-color;
+              font-size: 1rem;
+              color: red;
+            }
           }
         }
 
